@@ -26,7 +26,7 @@ form.addEventListener('submit', (e) => {
                         </ul>
                     </div>
                 </div>
-                <button class="btn btn-primary"><a class="link" target="_blanc" href="https://github.com/a7mdmo74">Show profile</a></button>
+                <button class="btn btn-primary"><a class="link" target="_blanc" href="${data.html_url}">Show profile</a></button>
             `
             output.innerHTML = dataOutput
         })
